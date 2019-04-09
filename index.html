@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>EZPICS</title>
+    <link href="CSS/Start.css" rel="stylesheet" />
+    <link href="CSS/MainContent.css" rel="stylesheet" />
+    <link href="CSS/Icon.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="startpage">
+        <div id="header" class="inline">
+            <div class="logo-start"></div>
+            <div id="left-header" class="  inline" >
+                
+                <div class="top-nav-item">let</div>
+<!--                <div class="vertical-line"></div>-->
+                <div class="top-nav-item">your</div>
+<!--                <div class="vertical-line"></div>-->
+                <div class="top-nav-item">infinite</div>
+                <div class="top-nav-item">creation</div>
+                <div class="top-nav-item">fly</div>
+                <div class="top-nav-item">away</div>
+            </div>
+            <div id="right-nav-header" class="inline">
+                <ul class="right-nav  inline">
+                    <li class="btguide"><a>Làm quen với INFYCRE</a></li>
+                    <li class="btcontact"><a>About</a></li>                   
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <div class="introduction-container  clearfix">
+                <div class="name">INFYCRE</div>
+                <div class="introduce">Let your infinite creation fly away.
+                Everything you need to make your ideas come to life. It's never been easier to feed your creative beast.</div>                   
+                
+                <input id="btlogin" type="button" value="S t a r t" />
+            </div>
+        </div>
+        <div id="footer"> Copyright© K61N Multimedia Communication</div>
+    </div>
+    <div id="guide">
+        <div class="disable-screen"></div>        
+        <div class="guide-content">
+            <div id="guide-img"></div>
+            <input class="close-guide"  type="button" value="ĐÃ HIỂU" />
+            
+        </div>
+    </div>
+    <div id="contact">
+        <div class="disable-screen"></div>  
+        <div class="contact-content">
+            <div id="about-img"></div>
+            <input class="close-contact"  type="button" value="ĐÓNG" />
+        </div>
+    </div>
+
+    <div id="main-page">
+        <div class="main-page-header  inline">
+            <div class="logo"></div>
+            <div class="top-nav-item">let</div>
+<!--                <div class="vertical-line"></div>-->
+            <div class="top-nav-item">your</div>
+<!--                <div class="vertical-line"></div>-->
+            <div class="top-nav-item">infinite</div>
+            <div class="top-nav-item">creation</div>
+            <div class="top-nav-item">fly</div>
+            <div class="top-nav-item">away</div>
+            <ul class="right-nav-main  inline">
+                <li class="btguide"><a>Làm quen với INFYCRE</a></li>
+                <li class="btcontact"><a>About</a></li>                   
+            </ul>
+        </div>
+        <div class="main-page-content  inline">
+            <div class="navigate-editors  inline">
+                <div class="editor-component-toolbar">
+                    <div class="tools  editor-component"></div>
+                    <div class="filters  editor-component"></div>
+<!--
+                    <div class="text  editor-component">D</div>
+                    <div class="frame  editor-component">I</div>
+                    <div class=" editor-component">T</div>
+                    <div class="  editor-component">S</div>
+-->
+                </div>
+                <div class="sub-menu">
+                    <div class="tool-submenu">
+<!--                        <div class="title-tool-submenu">TOOL</div>-->
+                        <ul>
+                            <li class="border-out">
+<!--                                <div class="sub-menu-item">Basic tools</div>-->
+                                <ul class="sub-sub-li">
+                                    <li class="crop-icon tools" id="crop">Crop</li>
+                                    <li class="resize-icon tools" id="resize" style="display: none">Resize</li>
+                                    <li class="rotate-icon tools" id="rotate" style="display: none">Rotate</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="border-out">
+<!--                                <div class="sub-menu-item">More</div>-->
+                                <ul class="sub-sub-li">
+                                    
+                                    <li class="exposure-icon tools" id="exposure">Exposure</li>
+                                    <li class="contrast-icon tools" id="contrast">Contrast</li>
+                                    <li class="sharpen-icon tools" id="sharpen">Sharpen</li>
+                                    <li class="warm-icon tools" id="temperature">Temperature</li>
+                                    <li class="saturation-icon tools" id="saturation">Saturation</li>
+                                    <li class="color-icon tools" id="color">Color</li>
+                                    <div id="color-detail">
+                                        <ul>
+                                            <li class="color-highlight  hover-reveal  color-detail tools" title="Highlight" id="color-highlight">Highlight</li>
+                                            
+                                             <li class="color-shadow  hover-reveal  color-detail tools" title="Shadow" id="color-shadow">Shadow</li>
+                                            
+                                        </ul>
+                                    </div>
+                                     
+                                    <li class="fade-icon tools" id="fade">Fade</li>
+                                    <li class="highlight-icon tools" id="highlight">Highlight</li>
+                                    <li class="shadow-icon tools" id="shadow">Shadow</li>
+                                    <li class="blur-icon tools" id="blur">Blur</li>
+                                    <li class="motionblur-icon tools" id="motionBlur">Motion Blur</li>
+                                    <li class="tone-icon tools" id="hue">Hue</li>
+                                    <li class="grain-icon tools" id="grain">Grain</li>
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="filter-menu">
+                        
+                        <ul>
+                            <li class="inline">
+                                <canvas id="filter-1" class="filter-thumbnails"></canvas>
+                                <div class="filter-name">1</div>
+                            </li>
+                            <li>
+                                <canvas id="filter-2" class="filter-thumbnails"></canvas>
+                                <div class="filter-name">2</div>
+                            </li>
+                            <li>
+                                <canvas id="filter-3" class="filter-thumbnails"></canvas>
+                                <div class="filter-name">3</div>
+                            </li>
+                            <li>
+                                <canvas id="filter-4" class="filter-thumbnails"></canvas>
+                                <div class="filter-name">4</div>
+                            </li>
+                            <li>
+                                <canvas id="filter-5" class="filter-thumbnails"></canvas>
+                                <div class="filter-name">5</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="sub-color" id="highlight-color-table">
+                        <div class="detail-color-icon" id="black-highlight" style="display: none"></div>
+                        <div class="detail-color-icon" id="yellow-highlight"></div>
+                        <div class="detail-color-icon" id="orange-highlight"></div>
+                        <div class="detail-color-icon" id="red-highlight"></div>
+                        <div class="detail-color-icon" id="pink-highlight"></div>
+                        <div class="detail-color-icon" id="purple-highlight"></div>
+                        <div class="detail-color-icon" id="seablue-highlight"></div>
+                        <div class="detail-color-icon" id="skyblue-highlight"></div>
+                        <div class="detail-color-icon" id="green-highlight"></div>
+                </div>
+                <div class="sub-color" id="shadow-color-table">
+                        <div class="detail-color-icon" id="black-shadowlight" style="display: none"></div>
+                        <div class="detail-color-icon" id="yellow-shadowlight"></div>
+                        <div class="detail-color-icon" id="orange-shadowlight"></div>
+                        <div class="detail-color-icon" id="red-shadowlight"></div>
+                        <div class="detail-color-icon" id="pink-shadowlight"></div>
+                        <div class="detail-color-icon" id="purple-shadowlight"></div>
+                        <div class="detail-color-icon" id="seablue-shadowlight"></div>
+                        <div class="detail-color-icon" id="skyblue-shadowlight"></div>
+                        <div class="detail-color-icon" id="green-shadowlight"></div>
+                </div>
+            </div>
+            <div class="center-components">
+                <div class="option-toolbar">
+                    <div class="center-option-toolbar  inline">
+                        <div class="center-option-toolbar-item  option-toolbar-button" id="option-toolbar-button">
+                            
+                            <div class="center-option-toolbar-item-text">
+                                <label id="openfile" for="file-chooser" class="choose-image-option-item  file  inline"  style="z-index: 1">
+                                    <div class="open-icon"></div>
+                                    <div>Choose your image</div>
+                                </label>
+                            </div>
+                            <input type="file" id="file-chooser" style="display: none"/>
+                        </div>
+                        <div class="vertical-line"></div>
+                        <div class="center-option-toolbar-item do-unavailable" id="undo-butt">
+                            <div class="undo-icon"></div>
+                            <div class="center-option-toolbar-item-text">Undo</div>
+                        </div>
+                        <div class="vertical-line"></div>
+                        <div class="center-option-toolbar-item do-unavailable" id="redo-butt">
+                            <div class="redo-icon"></div>
+                            <div class="center-option-toolbar-item-text">Redo</div>
+                        </div>
+                        <div class="vertical-line"></div>
+                        <a class="center-option-toolbar-item do-unavailable" id="save">
+                            <div class="save-icon"></div>
+                            <div class="center-option-toolbar-item-text">Save</div>
+                        </a>
+                        <div class="vertical-line"></div>
+                    </div>
+                </div>
+                <div class="display-image-wrapper" id="image-wrapper">
+                    <canvas id="process"></canvas>
+                    <canvas id="back-canvas"></canvas>
+                    <canvas id="front-canvas"></canvas>
+                    <canvas id="cropper"></canvas>
+                    <div id="welcome"></div>
+                </div>
+                <div class="slide-bar-wrapper" >
+                    <input type="range" id="slider" min="-100" max="100" value="0" class="slider">
+                    <input type="number" min="-100" max="100" value="0" id="slider-value" class="slider-value">
+                </div>
+                <div class="scale-crop">
+                    <div class="wrapper-scale-item">
+                        <div class="scale-item" id="customise">
+                            <div>Customise</div>
+                            <div class="scale-active" id="scale-customise"></div>
+                        </div>
+                        <div class="scale-item" id="1-1">
+                            <div>1:1</div>
+                            <div id="scale-1-1"></div>
+                        </div>
+                        <div class="scale-item" id="3-4">
+                            <div>3:4</div>
+                            <div id="scale-3-4"></div>
+                        </div>
+                        <div class="scale-item" id="4-3">
+                            <div>4:3</div>
+                            <div id="scale-4-3"></div>
+                        </div>
+                        <div class="scale-item" id="9-16">
+                            <div>9:16</div>
+                            <div id="scale-9-16"></div>
+                        </div>
+                        <div class="scale-item" id="16-9">
+                            <div>16:9</div>
+                            <div id="scale-16-9"></div>
+                        </div>
+                        <input type="image" src="Contents/Images/v.png" height="25" id="confirm">
+
+                    </div>
+                </div>
+                <div class="image-area" style="display:none;"></div>
+            </div>
+        </div>
+        <div id="wait-screen" style="width:100%; height: 100%; z-index: 1000;display: none; background-color: rgba(0,0,0,0.7); position:absolute; top: 0px; left: 0px;"></div>
+    </div>
+    <script src="Scripts/jquery-3.3.1.js"></script>
+    <script src="Scripts/index.js"></script>
+    <script src="Scripts/main.js"></script>
+</body>
+</html>

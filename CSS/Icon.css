@@ -1,0 +1,303 @@
+﻿.logo {
+    background-image: url('../Contents/Images/Logo1.png');
+    background-repeat: no-repeat;
+    background-size: 172%;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: -17px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.logo-start {
+    background-image: url(../Contents/Images/Logo5.png);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    width: 300px;
+    margin-left: 11px;
+    height: 147px;
+    margin-top: -24px;
+}
+.tools {
+    background-image: url('../Contents/Images/tools.png');
+    background-repeat:no-repeat;
+    /*width:20px;
+    height:20px;*/
+    background-size:100%;
+    /*background-color:#80838d;*/
+}
+
+.filter-active {
+    border: solid 4px rgba(255,255,255,0.8);
+}
+
+.tools-active {
+    background-color: rgb(92,99,135);
+    transition: all 0.2s ease;
+}
+
+.scale-active {
+    background-color: fuchsia;
+    transition: all 0.2s ease;
+}
+
+.filters-thumbnails{
+    
+}
+
+.filters {
+    background-image: url('../Contents/Images/filters.png');
+    background-repeat: no-repeat;
+    background-size: 62%;
+    background-position:15px 11px;
+}
+.text {
+/*    background-image: url('../Contents/Images/text.png');*/
+    background-repeat: no-repeat;
+    background-size: 62%;
+    background-position: 15px 11px;
+}
+.frame {
+/*    background-image: url('../Contents/Images/frame.png');*/
+    background-repeat: no-repeat;
+    background-size: 62%;
+    background-position: 15px 11px;
+}
+.crop-icon {
+    background-image: url('../Contents/Images/crop_tool-512.png');
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position: 0px 2px;
+}
+.resize-icon {
+    background-image: url('../Contents/Images/resize.png');
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 0px 4px;
+}
+.rotate-icon {
+    background-image: url('../Contents/Images/rotate.png');
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 0px 4px;
+}
+.exposure-icon {
+    background-image: url('../Contents/Images/exposure.png');
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 0px 4px;
+}
+.contrast-icon {
+    background-image: url('../Contents/Images/contrast.png');
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 0px 4px;
+}
+.sharpen-icon {
+    background-image: url('../Contents/Images/Sharpen.png');
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 0px 4px;
+}
+.warm-icon {
+    background-image: url('../Contents/Images/warm.png');
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 0px 4px;
+}
+.saturation-icon {
+    background-image: url('../Contents/Images/saturation.png');
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 0px 4px;
+}
+.color-icon{
+    background-image: url('../Contents/Images/color.png');
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 0px 4px;
+}
+.tone-icon {
+    background-image: url('../Contents/Images/tone.png');
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 0px 4px;
+}
+.fade-icon {
+    background-image: url('../Contents/Images/fade.png');
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 0px 4px;
+}
+.highlight-icon {
+    background-image: url('../Contents/Images/highlight.png');
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 0px 4px;
+}
+.shadow-icon {
+    background-image: url('../Contents/Images/shadow.png');
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 0px 4px;
+}
+.blur-icon {
+    background-image: url('../Contents/Images/blur.png');
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 0px 4px;
+
+}
+.grain-icon {
+    background-image: url('../Contents/Images/grain.png');
+    background-repeat: no-repeat;
+    background-size: 19%;
+    background-position: 0px 4px;
+
+}
+.motionblur-icon{
+    background-image: url('../Contents/Images/blurmotion.png');
+    background-repeat: no-repeat;
+    background-size: 19%;
+    background-position: 0px 4px;
+
+}
+.open-icon {
+    background-image: url('../Contents/Images/open.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-position: 0px 5px;*/
+    height:30px;
+    width:30px;
+    padding: 0 5px;
+}
+.undo-icon {
+    background-image: url('../Contents/Images/undo-6.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-position: 0px 8px;*/
+    height: 100%;
+    width: 30px;
+}
+.redo-icon {
+    background-image: url('../Contents/Images/redo-6.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-position: 0px 8px;*/
+    height: 100%;
+    width: 30px;
+}
+.save-icon {
+    background-image: url('../Contents/Images/save.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-position: 0px 8px;*/
+    height: 100%;
+    width: 30px;
+}
+#scale-customise{
+    border: 2px solid #000;
+    width: 50px;
+    height: 30px;
+}
+#scale-1-1{
+    border: 2px solid #000;
+    width: 40px;
+    height: 40px;
+}
+#scale-3-4{
+    border: 2px solid #000;
+    width: 30px;
+    height: 40px;
+}
+#scale-4-3{
+    border: 2px solid #000;
+    width: 40px;
+    height: 30px;
+}
+#scale-9-16{
+    border: 2px solid #000;
+    width: 18px;
+    height: 32px;
+}
+#scale-16-9{
+    border: 2px solid #000;
+    width: 32px;
+    height: 18px;
+}
+
+
+/*Color*/
+#black-highlight{
+    background-color: #000;
+    background-size: contain;
+}
+#yellow-highlight{
+    background-color: rgb(229,226,129);
+    background-size: contain;
+}
+#orange-highlight{
+    background-color:rgb(231,186,119) ;
+    background-size: contain;
+}
+#red-highlight{
+    background-color: rgb(229,119,118);
+    background-size: contain;
+}
+#pink-highlight{
+    background-color: rgb(236,139,184);
+    background-size: contain;
+}
+#purple-highlight{
+    background-color: rgb(183,121,222);
+    background-size: contain;
+}
+#seablue-highlight{
+    background-color: rgb(117,249,241);
+    background-size: contain;
+}
+#skyblue-highlight{
+    background-color: rgb(99,209,132);
+    background-size: contain;
+}
+#green-highlight{
+    background-color: rgb(121,233,125);
+    background-size: contain;
+}
+
+#black-shadowlight{
+    background-color: #000;;
+    background-size: contain;
+}
+#yellow-shadowlight{
+    background-color: rgb(204,191,61);
+    background-size: contain;
+}
+#orange-shadowlight{
+    background-color: rgb(201,138,45);
+    background-size: contain;
+}
+#red-shadowlight{
+    background-color: rgb(199,47,46);
+    background-size: contain;
+}
+#pink-shadowlight{
+    background-color: rgb(191,68,123);
+    background-size: contain;
+}
+#purple-shadowlight{
+    background-color: rgb(135,45,192);
+    background-size: contain;
+}
+#seablue-shadowlight{
+    background-color: rgb(41,56,211);
+    background-size: contain;
+}
+#skyblue-shadowlight{
+    background-color: rgb(38,167,298);
+    background-size: contain;
+}
+#green-shadowlight{
+    background-color: rgb(45,193,55);
+    background-size: contain;
+}
